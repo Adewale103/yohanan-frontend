@@ -7,13 +7,13 @@ export const SliderData = [
   {
     id: 1,
     title: "Rechargeable Charcoal stove",
-    desc: "Revolutionize your cooking experience with our Rechargeable Charcoal Stove. Efficient and eco-friendly, it's designed to enhance your culinary adventures while minimizing environmental impact.",
+    desc: "Revolutionize your cooking experience with our Rechargeable Charcoal Stove. Efficient and eco-friendly, it's designed to enhance your culinary adventures while minimizing environmental impact. It comes with solar panel, power bank, power cable and incorporated blower.",
     cover: rechargeable,
   },
   {
     id: 2,
     title: "Manual Charcoal Stove",
-    desc: "Discover the simplicity and reliability of our Manual Charcoal Stove. Crafted for convenience, it ensures a hassle-free cooking process, allowing you to enjoy the essence of traditional cooking with modern ease.",
+    desc: "Discover the simplicity and reliability of our Manual Charcoal Stove. Crafted for convenience, it ensures a hassle-free cooking process, allowing you to enjoy the essence of traditional cooking with modern ease. There are two sizes: Family Size and Medium Size.",
     cover: manual,
   },
   {
@@ -64,11 +64,11 @@ export const products = [
     productName: "Rechargeable Charcoal stove ",
     imgUrl: rechargeable,
     category: " yohanan",
-    price: 40000,
+    price: 50000,
     shortDesc:
-      "Explore a new era in cooking with our Rechargeable Charcoal Stove, designed to revolutionize your culinary experience!",
+      "Explore a new era in cooking with our Rechargeable Charcoal Stove, designed to revolutionize your culinary experience! It comes with SOLAR PANEL, POWER BANK, POWER CABLE and INCORPORATED BLOWER.",
     description:
-      "Revolutionize your cooking experience with our Rechargeable Charcoal Stove. Efficient and eco-friendly, it's designed to enhance your culinary adventures while minimizing environmental impact.",
+      "Revolutionize your cooking experience with our Rechargeable Charcoal Stove. Efficient and eco-friendly, it's designed to enhance your culinary adventures while minimizing environmental impact. It comes with SOLAR PANEL, POWER BANK, POWER CABLE and INCORPORATED BLOWER.",
     reviews: [
       {
         name: "Halima",
@@ -85,11 +85,11 @@ export const products = [
   },
 
   {
-    id: "03",
-    productName: "Manual Charcoal Stove ",
+    id: "19",
+    productName: "Family Size Manual Charcoal Stove ",
     imgUrl: manual,
     category: " yohanan",
-    price: 23000,
+    price: 25000,
     shortDesc:
       "Experience the simplicity of traditional cooking with a modern touch through our Manual Charcoal Stove",
     description:
@@ -103,12 +103,33 @@ export const products = [
     ],
     avgRating: 4.8,
   },
+
+  {
+    id: "03",
+    productName: "Medium Size Manual Charcoal Stove ",
+    imgUrl: manual,
+    category: " yohanan",
+    price: 16000,
+    shortDesc:
+      "Experience the simplicity of traditional cooking with a modern touch through our Manual Charcoal Stove",
+    description:
+      "Discover the simplicity and reliability of our Manual Charcoal Stove. Crafted for convenience, it ensures a hassle-free cooking process, allowing you to enjoy the essence of traditional cooking with modern ease.",
+    reviews: [
+      {
+        name: "Precious",
+        rating: 4.8,
+        text: "It is affordable for me.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+
   {
     id: "26",
-    productName: "Fire Starter ",
+    productName: "Fire Starter (80pieces) ",
     imgUrl: fireStarter,
     category: " yohanan",
-    price: 400,
+    price: 1000,
     shortDesc:
       "Effortlessly ignite the flames of your culinary creativity with our Fire Starter!",
     description:
@@ -129,7 +150,7 @@ export const products = [
   },
   {
     id: "04",
-    productName: "Briquettes",
+    productName: "Briquettes (1kg)",
     imgUrl: briquettes,
     category: " yohanan",
     price: 300,

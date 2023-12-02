@@ -71,10 +71,12 @@ export const products = [
       "Revolutionize your cooking experience with our Rechargeable Charcoal Stove. Efficient and eco-friendly, it's designed to enhance your culinary adventures while minimizing environmental impact.",
     reviews: [
       {
+        name: "Halima",
         rating: 4.8,
         text: "I love the product.",
       },
       {
+        name: "Peter",
         rating: 4.8,
         text: "They have good customer service.",
       },
@@ -94,6 +96,7 @@ export const products = [
       "Discover the simplicity and reliability of our Manual Charcoal Stove. Crafted for convenience, it ensures a hassle-free cooking process, allowing you to enjoy the essence of traditional cooking with modern ease.",
     reviews: [
       {
+        name: "Precious",
         rating: 4.8,
         text: "It is affordable for me.",
       },
@@ -112,10 +115,12 @@ export const products = [
       "Ignite the flames effortlessly with our Fire Starter. Specially crafted to make your cooking journey seamless, it guarantees a quick and efficient start to your culinary endeavors!",
     reviews: [
       {
+        name: "Fatimah",
         rating: 4.8,
         text: "The fire starter saves me time.",
       },
       {
+        name: "Zainab",
         rating: 4.8,
         text: "Thank you yohanan.",
       },
@@ -134,10 +139,12 @@ export const products = [
       "Fuel your cooking aspirations with our high-quality Briquettes. Designed for optimal performance, these eco-friendly fuel sources promise a clean and sustainable approach to your culinary adventures.!",
     reviews: [
       {
+        name: "Deborah",
         rating: 4.6,
         text: "I did not regret buying it.",
       },
       {
+        name: "Esther",
         rating: 4.9,
         text: "My grandmother enjoys using it.",
       },

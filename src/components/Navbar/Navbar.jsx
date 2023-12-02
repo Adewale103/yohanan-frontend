@@ -3,6 +3,8 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
+import logoImage from "../../Images/logo2.png";
+
 const NavBar = () => {
   const { cartList } = useSelector((state) => state.cart);
   const [expand, setExpand] = useState(false);
@@ -16,12 +18,6 @@ const NavBar = () => {
     }
   }
   window.addEventListener("scroll", scrollHandler);
-  // useEffect(()=> {
-  //   if(CartItem.length ===0) {
-  //     const storedCart = localStorage.getItem("cartItem");
-  //     setCartItem(JSON.parse(storedCart));
-  //   }
-  // },[])
   return (
     <Navbar
       fixed="top"
@@ -30,8 +26,12 @@ const NavBar = () => {
     >
       <Container className="navbar-container">
         <Navbar.Brand to="/">
-          <ion-icon name="bag"></ion-icon>
-          <h1 className="logo">Multimart</h1>
+          <img
+            src={logoImage}
+            alt="Logo"
+            className="logo"
+            style={{ height: "70px" }}
+          />
         </Navbar.Brand>
         {/* Media cart and toggle */}
         <div className="d-flex">
@@ -85,17 +85,6 @@ const NavBar = () => {
                 onClick={() => setExpand(false)}
               >
                 <span className="nav-link-label">Home</span>
-              </Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Link
-                aria-label="Go to Shop Page"
-                className="navbar-link"
-                to="/shop"
-                onClick={() => setExpand(false)}
-              >
-                <span className="nav-link-label">Shop</span>
               </Link>
             </Nav.Item>
 

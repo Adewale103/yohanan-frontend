@@ -7,25 +7,24 @@ import useWindowScrollToTop from "../hooks/useWindowScrollToTop";
 
 const Home = () => {
   const newArrivalData = products.filter(
-    (item) => item.category === "mobile" || item.category === "wireless"
+    (item) => item.category === " yohanan"
   );
-  const bestSales = products.filter((item) => item.category === "sofa");
   useWindowScrollToTop();
   return (
     <Fragment>
       <SliderHome />
       <Wrapper />
-      <Section
+      {/* <Section
         title="Big Discount"
         bgColor="#f6f9fc"
         productItems={discoutProducts}
-      />
+      /> */}
       <Section
-        title="New Arrivals"
+        title="Our Products"
         bgColor="white"
         productItems={newArrivalData}
       />
-      <Section title="Best Sales" bgColor="#f6f9fc" productItems={bestSales} />
+      {/* <Section title="Best Sales" bgColor="#f6f9fc" productItems={bestSales} /> */}
     </Fragment>
   );
 };
